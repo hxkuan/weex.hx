@@ -1,0 +1,7 @@
+# Weex
+## idea && node_modules
+.idea/
+node_modules/
+temp/
+## output files
+dist/
