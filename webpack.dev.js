@@ -80,9 +80,9 @@ module.exports = function() {
       devServer: {
         compress: true,
         host: '0.0.0.0',
-        port: '8088',
+        port: '8080',
         historyApiFallback: true,
-        public: ip + ':8088',
+        public: ip + ':8080',
         watchOptions: {
           aggregateTimeout: 300,
           poll: 1000

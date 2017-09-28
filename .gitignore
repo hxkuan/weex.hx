@@ -5,3 +5,5 @@ node_modules/
 temp/
 ## output files
 dist/
+
+*.iml

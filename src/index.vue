@@ -3,6 +3,9 @@
     <image :src="logoUrl" class="logo"></image>
     <text class="title">Hello {{target}}</text>
     <text class="desc">Now, let's use vue to build your weex app.11</text>
+    <text class="desc">哈哈哈</text>
+    <text class="desc">呵呵呵</text>
+    <text class="desc">嘻嘻嘻</text>
   </div>
 </template>
 
