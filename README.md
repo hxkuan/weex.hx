@@ -50,6 +50,8 @@ projectName
 ```shell
 weex run ios／android
 ```
+注意：ios需要手动下载WeexSDK，详情查看下文。
+
 - ### 其他指令
 ```shell
 npm run dev    #开发模式（自动监听编译文件）

@@ -7,3 +7,12 @@ temp/
 dist/
 
 *.iml
+
+build/
+test/
+.idea/
+
+.gradle
+local.properties
+
+
