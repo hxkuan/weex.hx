@@ -1,19 +1,5 @@
-# weex第一步
-## Mac 无法安装weex-toolkit
-如果你确定你的不是网络问题，那么很有可能是因为你电脑目录的权限问题；
-具体原因不是很清楚，不过weex-toolkit的依赖真不是一般的多，有什么乱七八糟的操作，谁知道呢。
-具体解决方法如下：
-```shell
-sudo chmod -R 777  /Users/userName(自己电脑的用户)
-sudo chmod 777 /usr/local/lib/node_modules
-```
-
-## 创建项目（weex版本 v1.0.9）
-- ### 创建weex项目
-```shell
-weex create projectName
-```
-### 项目结构
+## 项目介绍
+### 项目结构介绍
 ```
 .
 ├── dist／         存储js编译后的文件
@@ -34,6 +20,7 @@ weex create projectName
 ├── start（start.bat）     开启js服务窗口
 ……
 ```
+<<<<<<< HEAD
 - ### 添加平台（platform）
 ```shell
 weex platform add ios
@@ -81,11 +68,6 @@ gem sources -l #(再次查看当前ruby的源)
 https://ruby.taobao.org/
 ```
 就证明ruby的软件源已经设置OK了。
+=======
+>>>>>>> t
 
-接下来安装：
-```shell
-sudo gem install -n /usr/local/bin cocoapods
-```
-- ### 下载WeexSDK
-切换到Podfile所在目录，运行 pod install，然后运行。
-注意：我的是weex v1.0.9, 自动配置是有问题的，需要将Podfile中的ATSDK-Weex改为ATSDK后再次pod install。
